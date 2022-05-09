@@ -25,7 +25,7 @@ from telethon.errors import (
 @Client.on_message(filters.private & ~filters.forwarded & filters.command(["start", "gen", " help", "fuck"]))
 async def main(_, msg):
     await msg.reply(
-        "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**",
+        "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴀɢᴏʀᴀ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**",
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton("• ᴩʏʀᴏɢʀᴀᴍ •", callback_data="pyrogram"),
             InlineKeyboardButton("• ᴛᴇʟᴇᴛʜᴏɴ •", callback_data="telethon")
@@ -109,13 +109,13 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = "**ᴛʜɪs ɪs ʏᴏᴜʀ {} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{}` \n\nɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @DevilsHeavenMF\nᴅᴏɴ'ᴛ sʜᴀʀᴇ ɪᴛ ᴡɪᴛʜ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ.".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ", string_session)
+    text = "**ᴛʜɪs ɪs ʏᴏᴜʀ {} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{}` \n\nɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @Agora_Robots\nᴅᴏɴ'ᴛ sʜᴀʀᴇ ɪᴛ ᴡɪᴛʜ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ.".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ", string_session)
     try:
         await client.send_message("me", text)
     except KeyError:
         pass
     await client.disconnect()
-    await phone_code_msg.reply("sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴛᴏ ɢᴇᴛ ɪᴛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ! \n\nᴀ ʙᴏᴛ ʙʏ @DevilsHeavenMF".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
+    await phone_code_msg.reply("sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴛᴏ ɢᴇᴛ ɪᴛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ! \n\nᴀ ʙᴏᴛ ʙʏ @Agora_Robots".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
 
 
 async def cancelled(msg):
