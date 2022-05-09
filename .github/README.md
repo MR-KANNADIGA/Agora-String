@@ -2,8 +2,8 @@
   <img src="https://telegra.ph/file/654ddaf472f18b799600b.jpg" alt="StringGen">
 </p>
 
-### 🥵 sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ
-  <a href="https://github.com/AnonymousR1025"><img alt="Website" src="https://img.shields.io/badge/𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦-blue"></a>
+### 🥵 ΛႺՕ𝖱Λ ЅЅႺ
+  <a href="https://github.com/MR-KANNADIGA"><img alt="Website" src="https://img.shields.io/badge/ΛႺՕ𝖱Λ-purple"></a>
  
 [![Stars](https://img.shields.io/github/stars/AnonymousR1025/StringGenBot?style=social)](https://github.com/AnonymousR1025/StringGenBot/stargazers)
   [![Forks](https://img.shields.io/github/forks/AnonymousR1025/StringGenBot?style=social)](https://github.com/AnonymousR1025/StringGenBot/fork)
@@ -30,7 +30,7 @@
 
 ### 🙄 ᴅᴇᴍᴏ/ᴛᴇsᴛ ʙᴏᴛ
   
-  [sᴛʀɪɴɢ ʙᴏᴛ](https://telegram.me/StringFatherBot)
+  [sᴛʀɪɴɢ ʙᴏᴛ](https://telegram.me/Agora_SSGENBot)
 
 ```
 Atleast Give A Star and Fork The Repo 🖤
