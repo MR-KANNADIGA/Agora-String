@@ -30,7 +30,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("YOUR BOT_TOKEN IS WRONG, KYA FAAYDA TERE PADHNE LIKHNE KA BSDK.")
     uname = app.get_me().username
-    print(f"@{uname} Started Successfully for Generating Sessions !")
+    print(f"@{uname} Started Successfully for Generating Sessions Join - @Agora_Robots!")
     idle()
     app.stop()
     print("Bot Stopped, Bhakk Bsdk !")
