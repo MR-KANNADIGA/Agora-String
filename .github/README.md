@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/654ddaf472f18b799600b.jpg" alt="StringGen">
+  <img src="https://te.legra.ph/file/743570cee67092f5d03b7.jpg" alt="StringGen">
 </p>
 
 ### 🥵 ΛႺՕ𝖱Λ ЅЅႺ
