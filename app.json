@@ -40,7 +40,7 @@
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "d30cef43991a144be80615919bfcfc6c"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
